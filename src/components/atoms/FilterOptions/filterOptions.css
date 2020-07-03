@@ -1,0 +1,32 @@
+.filterOptions--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.filterOptions--filter {
+  background-color:rgb(247, 202, 247);
+  padding: 3px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filterOptions--filter > h3 {
+  color:  rgb(75, 2, 75);
+  font-size: 16px;
+  margin: 0;
+  font-family: "Chivo", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filterOptions--filter:hover,
+.filterOptions--filter:active {
+  background-image: linear-gradient(to bottom right,rgb(37, 1, 37), rgb(228, 18, 182));
+}
+
+.filterOptions--filter:hover > h3,
+.filterOptions--filter:active > h3 {
+  color: white;
+}

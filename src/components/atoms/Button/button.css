@@ -1,0 +1,64 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Chivo", sans-serif;
+  z-index: 5;
+}
+
+.searchBar--btn {
+  color: white;
+  background-image: linear-gradient(to bottom right,rgb(37, 1, 37), rgb(228, 18, 182));
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  padding: 10px 35px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 5;
+  font-family: "Chivo", sans-serif;
+}
+
+.searchBar--btn:hover,
+.searchBar--btn:active {
+  background-image: linear-gradient(to bottom right,rgb(37, 1, 37), rgb(155, 9, 123));
+  font-family: "Chivo", sans-serif;
+ 
+}
+
+.confirm--btn {
+  color: white;
+  background-image: linear-gradient(to bottom right,rgb(37, 1, 37), rgb(155, 9, 123));
+  font-family: "Chivo", sans-serif;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 35px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 5;
+  outline: none;
+}
+
+.confirm--btn:hover{
+   color: rgb(250, 195, 245);
+}
+
+.cancel--btn {
+  color: white;
+  background-image: linear-gradient(to bottom right,rgb(37, 1, 37), rgb(155, 9, 123));
+  font-family: "Chivo", sans-serif;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 35px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 5;
+  outline: none;
+}
+
+.cancel--btn:hover{
+  color: rgb(250, 195, 245);
+}
